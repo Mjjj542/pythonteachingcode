@@ -139,7 +139,7 @@ class Calculator(Frame):
         master.bind(")", lambda event, char=")", btn=self.rpar_bttn: self.add_chr(char, btn))
         master.bind("c", lambda event, btn=self.ac_bttn: self.flash(btn), self.clear_all)
     
-    def create_widgets(self):
+    def create_widgets(self)
         """
         Creates the widgets to be used in the grid.
         :return: None
